@@ -4,19 +4,6 @@ A real-time task scheduling simulation for an autonomous vehicle system using a 
 
 ---
 
-## Project Structure
-
-```
-.
-├── vehicle_scheduling.c       # Kernel module
-├── av_simulator.c             # User space simulation tool
-├── Makefile                   # Kernel module Makefile
-├── user/Makefile              # User space Makefile
-├── README.md
-```
-
----
-
 ## Features
 
 - Emergency Braking with hard real-time deadlines
@@ -91,7 +78,7 @@ dmesg | tail -n 50
 cat /proc/av_sched_status
 ```
 
-### 5. Remove the Kernel Module
+### 5. Run the test file
 
 ```bash
 sudo rmmod av_sched
