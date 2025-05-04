@@ -81,7 +81,7 @@ cat /proc/av_sched_status
 ### 5. Run the test file
 
 ```bash
-sudo rmmod av_sched
+./av_test.sh
 ```
 
 ---
